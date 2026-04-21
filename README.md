@@ -3,17 +3,17 @@ modified
 
 Будут проигнорированны:
 
-- .terraform/ - данная директория будет проигнорирована
-- *.tfstate - будет проигнорирован любой файл заканчивающийся на .tfstate
-- *.tfstate.* - буден проигнорирован любой файл содержаший в середине .tfstate.
-- crash.log - данный файл будет проигнорирован
+- .terraform/ - данная директория
+- *.tfstate - любой файл заканчивающийся на .tfstate
+- *.tfstate.* - любой файл содержаший в середине .tfstate.
+- crash.log - данный файл 
 - crash.*.log - любой файл начинающийся с crash. и заканчивающийся на .log
-- *.tfvars - будет проигнорирован любой файл заканчивающийся на .tfvars
-- *.tfvars.json - будет проигнорирован любой файл заканчивающийся на .tfvars.json
-- override.tf - данный файл будет проигнорирован
-- override.tf.json - данный файл будет проигнорирован
-- *_override.tf - будет проигнорирован любой файл заканчивающийся на _override.tf
-- *_override.tf.json - будет проигнорирован любой файл заканчивающийся на _override.tf.json
-- .terraform.tfstate.lock.info - данный файл будет проигнорирован
-- .terraformrc - данный файл будет проигнорирован
-- terraform.rc - данный файл будет проигнорирован
+- *.tfvars - любой файл заканчивающийся на .tfvars
+- *.tfvars.json - любой файл заканчивающийся на .tfvars.json
+- override.tf - данный файл 
+- override.tf.json - данный файл 
+- *_override.tf - любой файл заканчивающийся на _override.tf
+- *_override.tf.json - любой файл заканчивающийся на _override.tf.json
+- .terraform.tfstate.lock.info - данный файл 
+- .terraformrc - данный файл 
+- terraform.rc - данный файл 
